@@ -1,0 +1,594 @@
+
+/*
+	* Design by : Mahmoud Abd Alkarim ^_^
+	* Twitter   : 3abkream 
+	* Contact   : AbdAlkarim.mail@gmail.com
+*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto&family=Special+Elite&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@700&family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Righteous&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@700&family=Josefin+Sans:ital,wght@1,300&family=Kalam:wght@300&family=Pacifico&family=Righteous&display=swap');
+*{margin:0;padding:0}
+
+body{color:#FFF;background:#222;margin:0;padding:0;font-family:tahoma;min-height:2000px}
+
+span.logo{position:fixed;z-index:99999;margin:25px 0 0 35px;font-size:19px;font-weight:bold;color:#E8F873}
+
+span.logo span{color:#300}
+
+.nav{text-align:center;list-style:none;padding:0;margin:0;height:40px;position:fixed;width:100%;background:#FEE2B3;top:0;left:0;z-index:1}
+
+.nav li{display:inline-block;cursor:pointer}
+
+.nav li a{text-decoration:none;color:#123;display:block;padding:11px 35px;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;font-size:14px;font-weight:bold}
+
+.nav li a:hover{color:#FFF;text-shadow:0px 1px 1px #fff}
+#all-div{width:100%;height:100%;position:absolute;text-align:center;font-size:25px;font-weight:bold;font-family:verdana}
+
+.home{font-size:16px;border-bottom: 2px solid black}
+
+/*#link1 {background:#008080;height:100%;padding-top:100px}*/
+#link1 {background:#008080;
+height:100%;
+} 
+
+#link1 header {
+  height: 100vh;
+  background: 
+  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+  url("images/background-blur-clean-clear-531880.jpg");
+  background-size: cover;
+}
+#link2{background-color:#f8f3eb;height:100%;padding-top:60px}
+#link3{background-color:#d6d6c2;height:100%;padding-top:60px}
+#link4{background-color:#949494;height:100%;padding-top:60px}
+#link5{background-color:#333333;height:90%;padding-top:100px}
+
+.top{width:50px;height:50px;border-radius:100%;background:#1A5F5F;position:fixed;top:620px;left:23px;text-shadow:1px 1px 4px #222;cursor:pointer;outline:0;color:#FFF;font-weight:bold;font-size:15px;display:none;z-index:99999;text-align:center;line-height:50px;text-decoration:none;border:3px solid #EEE;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}
+.top:active{border:3px solid #1A5F5F;background:#EEE;color:#001717}
+.top span{color:#FF5F49}
+
+
+
+
+
+header p a {
+  color: #fff;
+  font-family: arial;
+  background-color: #36b3a8;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 20px;         
+  border-radius: 20px;        
+}
+
+
+
+header p {
+  text-align: center;
+}
+
+
+
+header h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Futura;
+  font-size: 68px;
+  text-transform: uppercase;
+  padding: 300px 0 100px;         
+  margin-bottom: 40px;   
+  margin-top:0;     
+}
+/* profile */
+
+
+/* Groups & Items  (Desktop) */
+
+.wrapper p{
+  color: black;
+}
+
+h3{
+  font-size: 16px;
+  font-family: 'Special Elite', cursive;
+  margin: 20px 0 0;
+}
+
+.profile-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  flex: 1;
+  margin-top: 40px;
+  color: black;
+  margin-left: 100px;
+}
+
+.profile-image img{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+.profile-image p{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0;
+  font-size: 15px;
+}
+
+#profile{
+  text-shadow:0px 1px #997300;
+}
+
+#profile:visited {
+  color:black;
+}
+
+#profile:hover {
+  color:#a3a375;
+}
+
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .profile-group{
+    flex-direction: row;
+  }
+}
+.profile-item {
+  flex: 1;
+  margin: 50px 0 0 150px;
+}
+p#And{
+  margin:120px 0 0;
+}
+/* more about linke */
+.profile-list{
+  color: #403933;
+
+}
+
+.profile-list p{
+  font-family: 'Pacifico', cursive;
+  text-align:left;
+  margin-bottom: 50px;
+}
+
+
+
+.profile-list li{
+
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-family: 'Righteous', cursive;
+}
+
+
+.noBullet li{
+list-style: none;
+}
+
+
+
+/*programming*/
+
+
+.programming-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.programming-image {
+  flex: 1;
+  margin-top: 80px;
+  color: black;
+  
+}
+
+.programming-image img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  border:1px solid black;
+}
+
+.programming-image p{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0;
+  font-size: 12px;
+}
+
+
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .programming-group{
+    flex-direction: row;
+  }
+}
+
+/*test split*/
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  margin-right: 300px;
+
+}
+
+.group h3{
+  font-size: 20px;
+}
+
+.group p{
+  font-size: 15px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+@media all and (min-width: 800px) {
+  .programming-image {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+
+/*list*/
+
+.programming-item {
+  flex: 1;
+  margin: 100px 0 0 300px;
+}
+
+/* more about linke */
+.programming-list{
+  color: #403933;
+  margin-left: 100px;
+
+}
+
+.programming-list p{
+  font-family: 'Pacifico', cursive;
+  text-align:left;
+  margin-bottom: 50px;
+}
+
+.programming-list li{
+
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-family: 'Righteous', cursive;
+}
+
+
+
+
+
+
+/*next*/
+.one img{
+  width: 200px;
+  margin: 60px 60px 20px;
+}
+.two{
+  width: 30%;
+  margin: 60px;
+}
+.three{
+  width: 30%;
+  margin: 60px;
+}
+
+
+/* another */
+#example-div{
+  background-color: red;
+  /* background: 
+  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(images/background-blur-clean-clear-531880.jpg); */
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  display:inline-block;
+}
+
+#example-div p{
+text-align: center;
+line-height: 75px;
+}
+
+.parent-div{
+ 
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin: 50px 0 5px;
+
+}
+
+p#explain{
+  font-size:10px;
+  text-align:center;
+}
+
+
+/* boom text */
+
+.group-g img {
+  
+}
+
+/* Groups & Items  (Mobile First) */
+.wrapper {
+  width: 100%;
+}
+
+.group-g {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+  margin-top: 35px;
+}
+
+.item-g {
+  flex: 1;
+}
+
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .group-g {
+    flex-direction: row;
+  }
+}
+
+.top-i{
+  margin-top: 50px;
+}
+
+	.gallery-image{
+    
+cursor:pointer;
+		position: relative;
+		display: block;
+     width:640px;
+     height:360px;
+     
+    padding: 0;
+    
+  
+    
+    text-align: center;
+
+	}
+
+.first-i{
+  margin-left: 30%;
+}
+
+.second-i{
+  margin-left: 20px;
+}
+
+  .gallery-image img{
+    width:640px;
+     height:360px;
+  }
+
+	.gallery-text{
+	    position: absolute;
+	    top: 0px; right: 0;
+	    bottom: 0px; left: 0;
+	   
+	    text-align: center;
+	    background-color: rgba(0,0,0,0.8);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:20px;
+       margin: auto;
+       width: 640px;
+       height: 360px;
+	}
+
+	.gallery-text:hover{
+	    opacity: 1;      
+	}
+
+	.gallery-text h3{
+	    color: white;
+	    display: inline-table;
+       vertical-align:middle;
+       line-height:360px;     
+       font-size: 50px;       
+	}
+
+
+/*Service*/
+
+.service-item {
+  margin: 100px 0 0 0px;
+}
+
+.comingSoon{
+  background-color: black;
+  margin-top: 80px;
+}
+.comingSoon img{
+  width: 700px;
+  height: 200px;
+
+}
+
+.service-list{
+  color:  black;
+  text-shadow: 0px 1px 2px white;
+  position: relative;
+  text-align: center;
+
+}
+
+.service-list p{
+  font-family: 'Alfa Slab One', cursive;
+  text-align:center;
+  margin-bottom: 70px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+
+.service-list li{
+
+  
+ 
+  margin-bottom: 50px;
+  font-family: 'Righteous', cursive;
+}
+
+
+
+.service-list li:hover{
+  background-color: white;
+  
+
+}
+
+
+/*contact*/
+
+.subscribe{
+  margin-top: 150px;
+
+}
+
+.subscribe p{
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
+  color: white;
+}
+
+.btn{
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+
+  border-radius: 200px;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 80px;
+}
+
+
+
+.btn-xl{
+  padding: 20px 10px;
+}
+
+.btn-primary{
+  background-color: #FEE2B3;
+  border-color: #777777;
+}
+
+.btn-primary:hover{
+  background-color: #FEEFBF;
+  border-color: #777777;
+  border-width: 4px;
+  color: #999999;
+}
+
+
+
+.contact-icon{
+  margin-top:20px;
+ 
+  
+}
+
+
+
+.contact-icon img{
+ /* margin:50px ;*/
+  background-color:#888888;
+}
+
+#link5 h1{
+   font-family: 'Kalam', cursive;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+
+.group-icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-icon {
+  flex: 1;
+}
+
+
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .group-icon {
+    flex-direction: row;
+  }
+}
+
+
+
+#footer-content {
+  background: #333333;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#year{
+
+  color: #80002a;
+}
+
+#darkBlue{
+  font-size: 55px;
+ color:#00061a;
+}
