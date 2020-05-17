@@ -1,23 +1,14 @@
 
-/*
-	* Design by : Mahmoud Abd Alkarim ^_^
-	* Twitter   : 3abkream 
-	* Contact   : AbdAlkarim.mail@gmail.com
-*/
+/*import font*/
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto&family=Special+Elite&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@700&family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Righteous&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@700&family=Josefin+Sans:ital,wght@1,300&family=Kalam:wght@300&family=Pacifico&family=Righteous&display=swap');
+
+/*reset*/
 *{margin:0;padding:0}
 
 body{color:#FFF;background:#222;margin:0;padding:0;font-family:tahoma;min-height:2000px}
 
-span.logo{position:fixed;z-index:99999;margin:25px 0 0 35px;font-size:19px;font-weight:bold;color:#E8F873}
-
-span.logo span{color:#300}
+/*fixed navigation bar*/
 
 .nav{text-align:center;list-style:none;padding:0;margin:0;height:40px;position:fixed;width:100%;background:#FEE2B3;top:0;left:0;z-index:1}
 
@@ -30,10 +21,9 @@ span.logo span{color:#300}
 
 .home{font-size:16px;border-bottom: 2px solid black}
 
-/*#link1 {background:#008080;height:100%;padding-top:100px}*/
-#link1 {background:#008080;
-height:100%;
-} 
+
+/*each page size and position*/
+#link1 {background:#008080;height:100%;} 
 
 #link1 header {
   height: 100vh;
@@ -47,6 +37,7 @@ height:100%;
 #link4{background-color:#949494;height:100%;padding-top:60px}
 #link5{background-color:#333333;height:90%;padding-top:100px}
 
+/*top bottom properties*/
 .top{width:50px;height:50px;border-radius:100%;background:#1A5F5F;position:fixed;top:620px;left:23px;text-shadow:1px 1px 4px #222;cursor:pointer;outline:0;color:#FFF;font-weight:bold;font-size:15px;display:none;z-index:99999;text-align:center;line-height:50px;text-decoration:none;border:3px solid #EEE;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}
 .top:active{border:3px solid #1A5F5F;background:#EEE;color:#001717}
 .top span{color:#FF5F49}
@@ -86,7 +77,7 @@ header h1 {
 /* profile */
 
 
-/* Groups & Items  (Desktop) */
+/* Groups & Items */
 
 .wrapper p{
   color: black;
@@ -123,6 +114,7 @@ h3{
   font-size: 15px;
 }
 
+/*more about link*/
 #profile{
   text-shadow:0px 1px #997300;
 }
@@ -153,7 +145,8 @@ h3{
 p#And{
   margin:120px 0 0;
 }
-/* more about linke */
+
+/* profile list section */
 .profile-list{
   color: #403933;
 
@@ -184,7 +177,7 @@ list-style: none;
 
 /*programming*/
 
-
+/*programming image*/
 .programming-group {
   display: flex;
   flex-direction: column;
@@ -224,7 +217,7 @@ list-style: none;
   }
 }
 
-/*test split*/
+/*programming image split*/
 
 .group {
   display: flex;
@@ -260,7 +253,7 @@ list-style: none;
 }
 
 
-/*list*/
+/*programming list*/
 
 .programming-item {
   flex: 1;
@@ -289,67 +282,9 @@ list-style: none;
 }
 
 
+/*portfolio */
+/* Groups & Items  */
 
-
-
-
-/*next*/
-.one img{
-  width: 200px;
-  margin: 60px 60px 20px;
-}
-.two{
-  width: 30%;
-  margin: 60px;
-}
-.three{
-  width: 30%;
-  margin: 60px;
-}
-
-
-/* another */
-#example-div{
-  background-color: red;
-  /* background: 
-  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-  url(images/background-blur-clean-clear-531880.jpg); */
-  width:80px;
-  height:80px;
-  border-radius:50%;
-  display:inline-block;
-}
-
-#example-div p{
-text-align: center;
-line-height: 75px;
-}
-
-.parent-div{
- 
-  display:flex;
-  justify-content:center;
-  align-items: center;
-  margin: 50px 0 5px;
-
-}
-
-p#explain{
-  font-size:10px;
-  text-align:center;
-}
-
-
-/* boom text */
-
-.group-g img {
-  
-}
-
-/* Groups & Items  (Mobile First) */
-.wrapper {
-  width: 100%;
-}
 
 .group-g {
   display: flex;
@@ -402,6 +337,8 @@ cursor:pointer;
   margin-left: 20px;
 }
 
+/*gallery : text centered in image*/
+
   .gallery-image img{
     width:640px;
      height:360px;
@@ -436,6 +373,7 @@ cursor:pointer;
        line-height:360px;     
        font-size: 50px;       
 	}
+
 
 
 /*Service*/
@@ -491,6 +429,7 @@ cursor:pointer;
 
 /*contact*/
 
+/*subscribe part*/
 .subscribe{
   margin-top: 150px;
 
@@ -531,11 +470,9 @@ cursor:pointer;
 }
 
 
-
+/*social link*/
 .contact-icon{
-  margin-top:20px;
- 
-  
+  margin-top:20px; 
 }
 
 
@@ -552,29 +489,8 @@ cursor:pointer;
 }
 
 
-.group-icon {
-  display: flex;
-  flex-direction: column;
-}
 
-.item-icon {
-  flex: 1;
-}
-
-
-
-@media all and (min-width: 800px) {
-  .wrapper {
-    width: 100%;
-    margin: auto;
-  }
-
-  .group-icon {
-    flex-direction: row;
-  }
-}
-
-
+/*footer*/
 
 #footer-content {
   background: #333333;
@@ -583,6 +499,8 @@ cursor:pointer;
   font-family: 'Josefin Sans', sans-serif;
 }
 
+
+/*text span */
 #year{
 
   color: #80002a;
